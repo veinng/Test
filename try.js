@@ -1,6 +1,4 @@
-<script type="text/javascript">
-
-        function CheckLogin() {
+function CheckLogin() {
             var strLoginID = document.getElementById('<%=txtUserID.ClientID%>').value
             var strPwd = document.getElementById('<%=txtPwd.ClientID%>').value;
             if (strLoginID == "") {
@@ -15,5 +13,3 @@
             }
             return true;
         }
-
-    </script>
