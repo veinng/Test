@@ -1,5 +1,5 @@
 <script type="text/javascript">
-        //<![CDATA[
+
         function CheckLogin() {
             var strLoginID = document.getElementById('<%=txtUserID.ClientID%>').value
             var strPwd = document.getElementById('<%=txtPwd.ClientID%>').value;
@@ -15,5 +15,5 @@
             }
             return true;
         }
-        //]]>
+
     </script>
